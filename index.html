@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./img/logoMarcas.jpeg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css" />
+
+  <link rel="stylesheet" href="./style/style.css">
+  <link rel="stylesheet" media="screen and (max-width:800px)" href="./style/mobile.css">
+  <title>House Toy</title>
+</head>
+
+<body>
+  <header>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#home" onclick="fantasia(),closeNav()">Inicio</a>
+      <a href="#about" onclick="fantasia(),closeNav()">Sobre</a>
+      <a href="#produtos" onclick="fantasia(),closeNav()">Produtos</a>
+      <a href="#footer" onclick="fantasia(),closeNav()">Contato</a>
+    </div>
+
+    <span style="font-size:30px;cursor:pointer" class="OpenNav" onclick="openNav()">&#9776;</span>
+    <nav class="menupc">
+      <div class="imgLogo">
+        <a href="#home"> <img src="./img/logoMarcas.jpeg" alt="Logo"> </a>
+      </div>
+
+      <lu class="opitions">
+
+        <a href="#home" onclick="fantasia()">Inicio</a>
+        <a href="#about" onclick="fantasia()">sobre</a>
+        <a href="#produtos" onclick="fantasia()">galeria</a>
+        <a href="#footer" onclick="fantasia()">contato</a>
+      </lu>
+    </nav>
+  </header>
+  <section class="banner" id="home">
+    <div class="imgBanner">
+      <img src="./img/banner.jpeg" alt="">
+    </div>
+
+  </section>
+
+  <section id="about">
+    <div class="background-about">
+      <div class="img-capa">
+        <img src="./img/escorrega.jpeg" alt="img-2">
+      </div>
+    </div>
+    <div class="box-about">
+      <div class="section-subtitle">
+        <h2>
+          Sobre
+        </h2>
+        <h3>Lorem ipsum dolor sit amet consectetur</h3>
+        <h4>HTML, CSS, JavaScript e React</h4>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga dolorem nisi ea officia maxime similique id
+          magni, accusamus facilis incidunt, iste pariatur reprehenderit consequatur iure assumenda nam beatae, quia
+          suscipit! </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga dolorem nisi ea officia maxime similique id
+          magni, accusamus facilis incidunt, iste pariatur reprehenderit consequatur iure assumenda nam beatae, quia
+          suscipit! </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga dolorem nisi ea officia maxime similique id
+          magni, accusamus facilis incidunt, iste pariatur reprehenderit consequatur iure assumenda nam beatae, quia
+          suscipit! </p>
+
+
+      </div>
+    </div>
+  </section>
+  <section class="MVV-container">
+
+    <div id="MVV-container">
+
+      <div class="MVV">
+        <span class="MVV-title">Missão</span>
+        <p>Proporcionar momentos de alegria e diversão para crianças em eventos, oferecendo um serviço de aluguel de
+          brinquedos de qualidade, que estimulem a imaginação e promovam experiências inesquecíveis. </p>
+      </div>
+      <div class="MVV">
+        <span class="MVV-title">Visão</span>
+        <p>Ser reconhecida como a principal referência em entretenimento infantil, destacando-se pela variedade de
+          opções de brinquedos inovadores e pelo compromisso com a satisfação dos clientes em cada celebração.</p>
+      </div>
+      <div class="MVV">
+        <span class="MVV-title">Valores</span>
+        <p><strong> Diversão Responsável:</strong> Comprometemo-nos a proporcionar diversão de maneira segura e
+          responsável, priorizando o bem-estar e a segurança das crianças.
+        </p>
+        <details>
+
+          <summary id="summary" onclick=" Vermais_VerMenos()">Ver mais</summary>
+          <p><strong>Inovação Constante:</strong> Buscamos sempre novas e emocionantes opções de brinquedos, promovendo
+            a
+            inovação como parte essencial do nosso serviço.
+          </p>
+          <p><strong> Atendimento Personalizado:</strong> Valorizamos a individualidade de cada evento, oferecendo um
+            atendimento personalizado para atender às necessidades específicas de nossos clientes.
+          </p>
+          <p><strong> Integridade e Transparência:</strong> Pautamos nossas ações na integridade e transparência,
+            construindo relações de confiança com clientes, colaboradores e parceiros.
+          </p>Contribuímos para a comunidade, promovendo eventos beneficentes e apoiando iniciativas que visam o
+          bem-estar
+          infantil.
+          </p>
+        </details>
+
+      </div>
+    </div>
+
+    <div class="saibaMais">
+      <a href="https://api.whatsapp.com/send?phone=5541998281626" target="_blank">Saiba mais</a>
+    </div>
+  </section>
+  <section id="produtos">
+    <div class="produtos-banner">
+      <h3>Produtos</h3>
+      <!-- <img src="./img/combo.png" alt="combo"> -->
+    </div>
+
+    <div id="produtos-container">
+      <div class="produtos">
+        <span class="produtos-title">Tobogã multi atividades</span>
+        <img src="./img/obstaculoEscorrega.JPG" alt="Escorrega" />
+        <p>Obstáculos, escalada, escorrega. 3x3 2,20. CxLxA 03</p>
+      </div>
+      <div class="produtos">
+        <span class="produtos-title">Tobogã casinha escorrega com piscina de bolinhas</span>
+        <img src="./img/tobogaCasinha.JPG" alt="tobogaCasinha" />
+
+        <p>5 metros de comprimento<br>
+          2,50 de largura<br>
+          3,10 de altura<br>
+          1,50 da base do escorrega
+        </p>
+      </div>
+      <div class="produtos">
+        <span class="produtos-title">Tobogã escorrega</span>
+        <img src="./img/tobogaComEscorrega.JPG" alt="tobogaComEscorrega" />
+        <p>
+          Tobogã com escorrega <br>
+          4,00 metros comprimento<br>
+          2,00 de largura<br>
+          3,60 de altura<br>
+          2,00 base do escorrega.
+        </p>
+      </div>
+      <div class="produtos">
+        <span class="produtos-title">Tobogã pequeno(Premium)</span>
+        <img src="./img/tobogaPequeno.JPG" alt="tobogaPequeno" />
+        <p>
+          Tamanho de 3,50 x 2,50 x 3,10<br> ideal para pequenos espaços
+
+        </p>
+      </div>
+      <div class="produtos">
+        <span class="produtos-title">Tobogã Premium</span>
+        <img src="./img/tobogaPremio.JPG" alt="tobogaPremio" />
+        <p>Escorrega de 4,20 metros de altura <br> por 6 de comprimento 2,5 de largura.</p>
+      </div>
+      <div class="produtos">
+        <span class="produtos-title">Tobogã slide</span>
+        <img src="./img/tobogaSlide.JPG" alt="tobogaSlide" />
+        <p>Tobogã slide 5 x 2,50 X 4,70<br> ideal para escorregar direto em piscina</p>
+      </div>
+      <div class="produtos">
+        <span class="produtos-title">Piscina de bolinhas tradicional</span>
+        <img src="./img/piscina Tradicional.JPG" alt="Tradicional" />
+        <p>Piscina de bolinhas tradicional 1,5x1,5</p>
+      </div>
+      <div class="produtos">
+        <span class="produtos-title">Cama elástica grande 3,20</span>
+        <img src="./img/camaElasticaGrande.jpeg" alt="camaElasticaGrande" />
+
+      </div>
+      <div class="produtos">
+        <span class="produtos-title">Piscina de bolinhas inflável</span>
+        <img src="./img/piscinaInflavel.JPG" alt="piscinaInflavel" />
+        <p>Piscina de bolinhas de 2,50 X 2,50 2,50 de altura</p>
+      </div>
+      <div class="produtos">
+        <span class="produtos-title">Tobogã mega.</span>
+        <img src="./img/toboMega.JPG" alt="toboMega" />
+        <p>Tamanho 5 x 2,50 X 4,70 <br> base do escorrega a altura de 2,50 <br>idade indicada até 14 anos.</p>
+      </div>
+
+
+    </div>
+
+    <footer id="footer">
+
+      <div class="redes-sociais">
+
+        <a href="https://www.instagram.com/house_toys.ofc/" target="_blank" onMouseOver="bolha()">
+
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.facebook.com/ArlieneEliasRodriguessilva" target="_blank" onMouseOver="bolha()"> <i
+            class="fab fa-facebook-f"></i>
+        </a>
+
+        <a href="https://api.whatsapp.com/send?phone=5541998281626" target="_blank" onMouseOver="bolha()">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="https://maps.app.goo.gl/xyKs7yXxWsgfV2rS8" target="_blank" onMouseOver="bolha()">
+          <i class="fa fa-map-marker" aria-hidden="true"></i>
+        </a>
+
+      </div>
+      <a href="https://api.whatsapp.com/send?phone=5541998281626" target="_blank" id="zap" class="whatsapp-button">
+        <i class="fab fa-whatsapp" onclick="sucesso()" onMouseOver="bolha()"></i>
+      </a>
+
+    </footer>
+    <script src="script/script.js"></script>
+</body>
+
+</html>
